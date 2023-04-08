@@ -1,11 +1,57 @@
 /* CSS */
+body {
+  background-color:white;
+  margin: 3em;
+}
+.hea{
+  display:flex;
+  flex-direction: column;
+}
 h1 {
-  color: red;
-  background-color: black;
+  color:#DAA520;
+ align-items: center;
+  font-family:'Fasthand', cursive;
+
+
 }
 
-.varios{
-  margin-left: 50px;
-  color: yellowgreen;
-  background-color: olivedrab;
+.titulo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 10px;
+
+  background-color:#543D28 ;
+
+}
+.media{
+  display: flex;
+  justify-content: flex-end;
+  background-color:#543D28 ;
+  
+}
+.navegador {
+  display: flex;
+  justify-content: center;
+  background-color:#F5F5DC ;
+  border-radius: 10px;
+
+
+
+}
+
+.navegador2 a {
+  text-decoration: none;
+  color:#543D28 ;
+  font-family: 'Fasthand', cursive;
+  
+
+}
+
+.varios {
+  padding: 10px;
+  color:#543D28 ;
+  background-color:#F5F5DC ;
+  font-family: 'Fasthand', cursive;
+  border-radius: 10px;
 }
