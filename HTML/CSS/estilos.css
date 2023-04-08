@@ -19,8 +19,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-border-radius: 10px;
-
+  border-radius: 10px;
   background-color:#543D28 ;
 
 }
@@ -28,6 +27,10 @@ border-radius: 10px;
   display: flex;
   justify-content: flex-end;
   background-color:#543D28 ;
+  border-radius: 10px;
+  height: 2,5em;
+
+
   
 }
 .navegador {
@@ -44,6 +47,7 @@ border-radius: 10px;
   text-decoration: none;
   color:#543D28 ;
   font-family: 'Fasthand', cursive;
+padding: 1em;
   
 
 }
@@ -53,5 +57,14 @@ border-radius: 10px;
   color:#543D28 ;
   background-color:#F5F5DC ;
   font-family: 'Fasthand', cursive;
+  border-radius: 10px;
+}
+.formu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5DC;
+  color: #543D28;
+  font-family:'Fasthand', cursive;
   border-radius: 10px;
 }
